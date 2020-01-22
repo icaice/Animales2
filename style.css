@@ -61,3 +61,10 @@ iframe{
     display: block;
     margin: 2% auto;
 }
+
+#elefante:hover{
+    transition-duration: 1s;
+    transition-timing-function:ease-in-out;
+    transform: skew(30deg);
+    filter: blur(2px)
+}
